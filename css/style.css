@@ -1,0 +1,130 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  .bg_gray {
+    background-color: #f3f5f9;
+  }
+  .bg_blue {
+    background-color: #015aff;
+  }
+  .bg_d_blue {
+    background-color: #031b4e;
+  }
+  .clr_white {
+    color: white;
+  }
+  .clr_white a {
+    color: white;
+  }
+  h2 {
+    font-size: 3em;
+  }
+  .padding {
+    padding: 30px 0;
+  }
+  /* header */
+  #white {
+    background-color: #ffffff;
+  }
+  #a_my_color a {
+    color:  #011d5c;
+  }
+  .navbar-header .logo img {
+    float: left;
+    margin: 3px;
+    margin-right: 50px;
+    max-width: 20%;
+  }
+  .burger {
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 2em;
+    color: #006aff;
+  }
+  button .blue {
+    color: #006aff;
+  }
+  #btn_blue {
+    border-color: #006aff;
+    background-color: #ffffff;
+  }
+  @media screen and (min-width: 768px) {
+   .navbar-header .logo img {
+     min-width: 20%;
+   }
+  }
+  @media screen and (max-width: 990px) {
+    .navbar-header .logo img {
+      min-width: 30%;
+    }  
+  }
+  /* header end */
+
+  /* main */
+/* jumbo */
+.ms_jumbo {
+    width: 100%;
+    background-image: url("../img/ms-jumbo.jpg");
+    background-size: cover;
+    background-position: center;
+    backface-visibility: hidden;
+    transform: translateZ(0px);
+  }
+  .jumbo {
+    padding: 100px 0;
+  }
+  .ms_jumbo {
+    color: white;
+  }
+  .jumbo h1 {
+    font-size: 4em;
+  }
+  .sub p {
+    font-size: 1.5em;
+  }
+  .wrp_white {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+  .wrp_white h2, .wrp_white h3 {
+    font-size: 3em;
+  }
+  .wrp_white h2 {
+    padding-top: 30px;
+  }
+  .wrp_white h3 {
+    padding-top: 0px;
+    color: #006aff;
+  }
+  .ms_jumbo div .btn_group {
+    margin: 10px 20px;
+  }
+  .google_icn {
+    position: absolute;
+    top: 74%;
+    left: 8%;
+    width: 4%;
+  }
+  .inp {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 10px;
+  }
+  .mail {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .con {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  /* fine jumbo */
+  
