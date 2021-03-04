@@ -128,3 +128,90 @@ body{
   }
   /* fine jumbo */
   
+  /* loghi */
+.row .box_loghi div {
+  height: 8vh;
+  padding-top: 3%;
+  padding-left: 7%;
+}
+.ms_loghi img {
+  max-width: 150px;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 990px) {
+  .ms_loghi img {
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ms_loghi img {
+    max-width: 150px;
+  }
+  .box_loghi {
+    margin-top: 30px;
+    margin-left: 25%;
+  }
+}
+/* fine loghi */
+
+/* li deploy */
+.list_left li {
+  list-style: none;
+  border-left: 1px solid grey;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.list_left li:last-child {
+  padding-bottom: 0;
+}
+.ms_deploy .container {
+  padding: 30px 0;
+}
+.ms_list {
+  padding: 30px 0;
+}
+.circle {
+  color: #0080ff;
+  padding-bottom: 30px;
+}
+
+/* secion ms_ds_developers */
+.ms_ds_developers img {
+  width: 70%;
+  padding: 20px;
+}
+.ms_ds_developers h2 {
+  font-size: 2.5em;
+  padding-top: 30px;
+}
+.freccia {
+  font-size: 3em;
+}
+/* section cust service */
+.line {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+.lines {
+  margin-bottom: 20px;
+}
+.speed {
+  margin-left: 48%;
+}
+.speed a {
+  color: #36bdff;
+}
+/* ms_deve_teams */
+.ms_deve_teams .freccia {
+  padding-top: 80px;
+}
+.rocker_text {
+  background-color: white;
+  margin: 20px;
+}
+.rocker img {
+  padding: 20px 0;
+  width: 30%;
+}
