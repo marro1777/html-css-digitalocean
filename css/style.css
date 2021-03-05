@@ -215,3 +215,32 @@ body{
   padding: 20px 0;
   width: 30%;
 }
+
+/* get started */
+.ms_get_started input {
+  border: none;
+  color: #0080ff;
+  font-size: 1.2em;
+ }
+ /* footer */
+  .social li  {
+   display: inline-block;
+ }
+ .social a {
+   color: #8c8e8f;
+   font-size: 1.5em;
+   padding: 0 5px;
+   text-align: left;
+ }
+ .info {
+   padding-top: 20px;
+ }
+ .logo_footer {
+   color: #8c8e8f;
+ }
+ .logo_footer img {
+   padding-bottom: 10px;
+ }
+ .sec li {
+   margin: 2px 0;
+ }
